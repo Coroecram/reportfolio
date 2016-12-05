@@ -1,0 +1,28 @@
+section {
+  position: fixed;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  height: calc(96% / 3);
+  width: 80%;
+  /*border: solid 5px;*/
+  border-color: black;
+}
+
+.top {
+  padding: 0 10% 0 10%;
+}
+
+.middle {
+  padding: 1% 10% 1% 10%;
+}
+
+.bottom {
+  border: solid 1px;
+  padding: 0 10% 0 10%;
+}
