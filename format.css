@@ -6,7 +6,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
 }
 
 #frame > div {
@@ -23,4 +22,13 @@
   height: 32.5%;
   width: 55%;
   margin-bottom: 5%;
+}
+
+.leftvert {
+  height: 50%;
+  width: 25%;
+}
+
+.projects {
+
 }
