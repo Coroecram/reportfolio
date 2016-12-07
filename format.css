@@ -1,34 +1,57 @@
 #frame {
   position: fixed;
-  width: 72.5%;
-  height: 72.5%;
-  padding: 7.5%;
+  width: 65%;
+  height: 65%;
+  padding: 2.5%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background: darkgray;
 }
 
 #frame > div {
   float: left;
+  background: gray;
 }
 
 .aboutme {
   width: 25%;
   height: 32.5%;
-  margin: 0 7.5% 5% 2.5%;
+  margin: 0 5% 5% 2.5%;
 }
 
 .tophori {
   height: 32.5%;
-  width: 55%;
-  margin-bottom: 5%;
+  width: 65%;
+  margin: 2% 0 3% 0;
 }
 
 .leftvert {
-  height: 50%;
-  width: 25%;
+  height: 57.5%;
+  width: 20%;
+  margin: 0 5% 0 0;
 }
 
 .projects {
+  height: 29.5%;
+  width: 35%;
+  margin: 2% 5% 3% 0;
+}
 
+.rightbox {
+  width: 35%;
+  height: 22%;
+  margin: 1% 0 8% 0;
+}
+
+.bottombox {
+  height: 21%;
+  width: 34%;
+  margin: 0 4% 0 3%;
+}
+
+.github {
+  height: 26%;
+  width: 30%;
+  margin: -4% 0 0 1%;
 }
