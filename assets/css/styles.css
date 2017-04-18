@@ -1,0 +1,36 @@
+body {
+  background-image: url(../img/background/min-code.jpg);
+  background-size: cover;
+}
+
+body span {
+  font-size: 20px;
+  color: #648a8a;
+
+  -webkit-transition: color 2s, font-size 2s;
+  -moz-transition: color 2s, font-size 2s;
+  -o-transition: color 2s, font-size 2s;
+  transition: color 2s, font-size 2s;
+}
+
+.box {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.box:hover span {
+  display: block;
+  background-color: rgba(255, 255, 0, 0.4);
+  font-size: 27.5px;
+}
+
+.aboutme {
+  background-image: url(../img/aboutme/selfie5.jpg);
+}
+
+.github {
+  background-image: url(../img/github/github1.png);
+}

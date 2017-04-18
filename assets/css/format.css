@@ -6,12 +6,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: darkgray;
+  background: rgba(255, 255, 255, 0.2);
 }
 
-#frame > div {
+#frame > a {
+  display: block;
   float: left;
-  background: gray;
 }
 
 .aboutme {
@@ -20,25 +20,25 @@
   margin: 0 5% 5% 2.5%;
 }
 
-.tophori {
+.projects {
   height: 32.5%;
   width: 65%;
   margin: 2% 0 3% 0;
 }
 
-.leftvert {
+.electronics {
   height: 57.5%;
   width: 20%;
   margin: 0 5% 0 0;
 }
 
-.projects {
+.art {
   height: 29.5%;
   width: 35%;
   margin: 2% 5% 3% 0;
 }
 
-.rightbox {
+.github {
   width: 35%;
   height: 22%;
   margin: 1% 0 8% 0;
@@ -50,7 +50,7 @@
   margin: 0 4% 0 3%;
 }
 
-.github {
+.blog {
   height: 26%;
   width: 30%;
   margin: -4% 0 0 1%;
