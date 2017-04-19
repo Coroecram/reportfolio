@@ -3,27 +3,28 @@ body {
   background-size: cover;
 }
 
-body span {
-  font-size: 20px;
-  color: #648a8a;
+.box {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.075);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 5px;
+}
 
+.box p {
+  font-size: 20px;
+  color: black;
+  background-color: rgba(255, 255, 0, 0.5);
   -webkit-transition: color 2s, font-size 2s;
   -moz-transition: color 2s, font-size 2s;
   -o-transition: color 2s, font-size 2s;
   transition: color 2s, font-size 2s;
 }
 
-.box {
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.7);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.box:hover span {
-  display: block;
-  background-color: rgba(255, 255, 0, 0.4);
+.box:hover p {
+  background-color: rgba(255, 255, 0, 0.75);
+  color: #648a8a;
   font-size: 27.5px;
 }
 
@@ -32,5 +33,17 @@ body span {
 }
 
 .github {
-  background-image: url(../img/github/github1.png);
+  background-image: url(../img/github/github_avatar.png);
+}
+
+.blog {
+  background-image: url(../img/blog/bloggora.jpg);
+}
+
+.art {
+  background-image: url(../img/art/dive.jpg);
+}
+
+.art:hover {
+  background-image: url(../img/art/dive.gif);
 }
