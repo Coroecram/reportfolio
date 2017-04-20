@@ -9,7 +9,7 @@
   background: rgba(255, 255, 255, 0);
 }
 
-#frame > a {
+#frame > .box {
   display: block;
   float: left;
 }
