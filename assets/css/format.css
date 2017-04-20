@@ -1,6 +1,6 @@
 #frame {
   position: fixed;
-  width: 65%;
+  width: 64.5%;
   height: 65%;
   padding: 2.5%;
   top: 50%;
@@ -15,43 +15,43 @@
 }
 
 .aboutme {
-  width: 25%;
+  width: 24.5%;
   height: 32.5%;
   margin: 0 5% 5% 2.5%;
 }
 
 .projects {
   height: 32.5%;
-  width: 65%;
+  width: 64.5%;
   margin: 2% 0 3% 0;
 }
 
 .electronics {
   height: 57.5%;
-  width: 20%;
+  width: 19.5%;
   margin: 0 5% 0 0;
 }
 
 .art {
   height: 29.5%;
-  width: 35%;
+  width: 34.5%;
   margin: 2% 5% 3% 0;
 }
 
 .github {
-  width: 35%;
+  width: 34.5%;
   height: 22%;
   margin: 1% 0 8% 0;
 }
 
 .bottombox {
   height: 21%;
-  width: 34%;
+  width: 33.5%;
   margin: 0 4% 0 3%;
 }
 
 .blog {
   height: 26%;
-  width: 30%;
+  width: 29.5%;
   margin: -4% 0 0 1%;
 }

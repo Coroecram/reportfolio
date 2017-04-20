@@ -5,10 +5,12 @@ body {
 
 .box {
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(255, 255, 255, 0);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
 }
 
@@ -29,21 +31,33 @@ body {
 }
 
 .aboutme {
-  background-image: url(../img/aboutme/selfie5.jpg);
+  background-image: url(../img/aboutme/selfie5.jpg), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
 }
 
 .github {
-  background-image: url(../img/github/github_avatar.png);
+  background-image: url(../img/github/github_avatar.png), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
 }
 
 .blog {
-  background-image: url(../img/blog/bloggora.jpg);
+  background-image: url(../img/blog/bloggora.jpg), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
 }
 
 .art {
-  background-image: url(../img/art/dive.jpg);
+  background-image: url(../img/art/dive.jpg), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
 }
 
 .art:hover {
-  background-image: url(../img/art/dive.gif);
+  background-image: url(../img/art/dive.gif), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+}
+
+.projects {
+  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+}
+
+.electronics {
+  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+}
+
+.bottombox {
+  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
 }
