@@ -17,51 +17,50 @@ body {
 
 .box p {
   font-size: 20px;
-  color: black;
-  background-color: rgba(255, 255, 0, 0.5);
-  -webkit-transition: color 2s, font-size 2s;
-  -moz-transition: color 2s, font-size 2s;
-  -o-transition: color 2s, font-size 2s;
-  transition: color 2s, font-size 2s;
+  color: #042127;
+  background-color: rgba(111, 137, 147, 0.75);
+  -webkit-transition: color 2s, opacity 2s, font-size 2s;
+  -moz-transition: color 2s, opacity 2s, font-size 2s;
+  -o-transition: color 2s, opacity 2s, font-size 2s;
+  transition: color 2s, opacity 2s, font-size 2s;
   z-index: 1;
 }
 
 .box:hover p {
-  background-color: rgba(255, 255, 0, 0.75);
-  color: #648a8a;
+  background-color: rgba(111, 137, 147, 1);
   font-size: 27.5px;
 }
 
 .aboutme {
-  background-image: url(../img/aboutme/selfie5.jpg), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-image: url(../img/aboutme/selfie5.jpg), linear-gradient(to bottom, rgba(111, 137, 147, 0.75), rgba(5, 32, 41, 0.5));
 }
 
 .github {
-  background-image: url(../img/github/github_avatar.png), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-image: url(../img/github/github_avatar.png), linear-gradient(to bottom, rgba(111, 137, 147, 0.75), rgba(5, 32, 41, 0.5));
 }
 
 .blog {
-  background-image: url(../img/blog/bloggora.jpg), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-image: url(../img/blog/bloggora.jpg), linear-gradient(to bottom, rgba(111, 137, 147, 0.75), rgba(5, 32, 41, 0.5));
 }
 
 .art {
-  background-image: url(../img/art/dive.jpg), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-image: url(../img/art/dive.jpg), linear-gradient(to bottom, rgba(111, 137, 147, 0.75), rgba(5, 32, 41, 0.5));
 }
 
 .art:hover {
-  background-image: url(../img/art/dive.gif), linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-image: url(../img/art/dive.gif), linear-gradient(to bottom, rgba(111, 137, 147, 0.75), rgba(5, 32, 41, 0.5));
 }
 
 .projects {
-  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-image: linear-gradient(to bottom, rgba(111, 137, 147, 0.75), rgba(5, 32, 41, 0.5));
 }
 
 .electronics {
-  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-image: linear-gradient(to bottom, rgba(111, 137, 147, 0.75), rgba(5, 32, 41, 0.5));
 }
 
 .getintouch {
-  background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+  background-image: linear-gradient(to bottom, rgba(111, 137, 147, 0.75), rgba(5, 32, 41, 0.5));
 }
 
 .contact {
