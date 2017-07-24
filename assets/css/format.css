@@ -1,0 +1,29 @@
+#frame {
+  margin: 0 20% 0 20%;
+  overflow: hidden;
+}
+
+#banner {
+  height: 10%;
+  width: auto;
+}
+
+hr {
+  position: relative;
+  height 1px;
+}
+
+#menu-bar {
+  opacity: 0%;
+}
+
+#menu-bar p {
+  float: left;
+  width: 17%;
+  height: 10%;
+  margin: 1.5%;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+  background: red;
+}
